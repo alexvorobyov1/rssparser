@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/postTitleLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/postDateLabel"
+        android:layout_alignStart="@+id/postDateLabel"
+        android:layout_alignParentTop="true"
+        android:maxLines="3"
+        android:text="Post # Title: This is the Post Title from RSS Feed"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/postLinkLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/postTitleLabel"
+        android:layout_alignStart="@+id/postTitleLabel"
+        android:layout_below="@+id/postTitleLabel"
+        android:maxLines="1"
+        android:text="Link"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/postDateLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postLinkLabel"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:text="September 24, 2014"
+        android:textSize="12sp" />
+
+</RelativeLayout>

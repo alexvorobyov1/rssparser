@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rss Parser</string>
+    <string name="display_web_page_name">Rss Parser Browser</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
